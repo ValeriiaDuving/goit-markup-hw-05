@@ -484,7 +484,7 @@ fill: #f4f4fd;
     align-items: center;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background-color: #4d5ae5;
     border: none;
@@ -528,9 +528,11 @@ fill: #f4f4fd;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    color: #ffffff;
+
 }
 
-.footer-input::placeholder {
+.footer-form-input::placeholder {
     color: #ffffff;
 }
 
